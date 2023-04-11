@@ -21,11 +21,12 @@ export default function Home() {
           transform: 'translateY(-2px)',
           shadow: 'lg',
         }}
+        className="group"
       >
         <panda.div
           display="block"
           fontSize="9xl"
-          _hover={{
+          _groupHover={{
             animation: 'spin 1s infinite',
           }}
         >
