@@ -6,11 +6,11 @@ export default function Home() {
     <Container display="flex" justifyContent="center" py="10">
       <Link
         href="/panda"
+        variant="unstyled"
         display="flex"
         flexDirection="column"
         alignItems="center"
         maxW="300px"
-        variant="unstyled"
         fontFamily="sans"
         borderWidth="1px"
         borderColor="gray.200"
